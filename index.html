@@ -19,82 +19,14 @@
 	
 	<!--Google Fonts - Montserrat and Libre Baskerville-->
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i|Montserrat&display=swap" rel="stylesheet">
+
+	<!--Google Icons-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <style>
     body, html{
-		height: 100%;
-		margin: 0;
-		font-family: 'Montserrat', sans-serif;
-		background-color: #1C3D51;
-		color: #FFFFFF;
-
 		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.unsplash.com/photo-1421081177127-339f586c9b49?ixlib=rb-1.2.1&auto=format&fit=crop&w=2698&q=80);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        color: #FFFFFF;
     }
-    
-    h1, h2, h3, h4, h5, h6 {
-		font-family: 'Libre Baskerville', serif;
-		font-style: italic;
-		/* color: #92bae7; */
-	}
-
-    .circle-image {
-		border: 4px solid #FFFFFF;
-		border-radius: 50%;
-		width: 400px;
-		content: url("IMG_1522.jpeg");
-	}
-	.vertical-center {
-		margin: 0;
-		position: absolute;
-		top: 50%;
-		-ms-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
-	.parallax1 {
-		/* The image used */
-		background-color: #778B94;
-
-		/* Full height */
-		height: 100%;
-
-		/* Create the parallax scrolling effect */
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-
-	@media only screen and (max-device-width: 1366px) {
-		.parallax {
-			background-attachment: scroll;
-		}
-	}
-
-	/* The navbar */
-	.navbar {
-		overflow: hidden;
-		background-color: #1C3D51;
-	}
-
-	/* Navbar links */
-	.navbar a {
-		float: left;
-		color: #92bae7;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-		font-size: 17px;
-	}
-
-	.navbar a:hover {
-		color: #7778a4;
-	}
-
 </style>
 <body>
     <!--  Navigation Bar  -->
@@ -106,6 +38,12 @@
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home</a>
+                </li>
+				<li class="nav-item active">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+				<li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -133,59 +71,65 @@
 		</div>
 		<h6>Life</h6>
 		
-		<p>Originally from Steubenville, Ohio, Jim attended Steubenville Catholic High School. 
-		He worked at Weirton Steel for many years and obtained two degrees from Jefferson 
-		Community College. An avid golfer and pianist, Jim shot three holes-in-one 
-		and mastered select Billy Joel songs. The most important aspect of Jim's life was family. 
-		He was a great husband, father, and doggy dad and will be greatly missed.
-		</p>
+		<p>Originally from Steubenville, Ohio, Jim attended Steubenville Catholic High School and graduated
+		with the class of 1973. He worked at Weirton Steel for many years and obtained two degrees from the 
+		former Jefferson Technical College. After retiring from Weirton Steel, Jim worked various jobs including 
+		teaching for John Marshall High School in Moundsville, WV. He finally retired from Bulldog Rack in 2014.</p>
+
+		<p>An avid golfer and pianist, Jim shot three holes-in-one and mastered many songs. 
+		Jim also loved the Pittsburgh Steelers, the Pittsburgh Penguins, and Notre Dame football. 
+		However, the most important aspect of Jim's life was family. He enjoyed planning family trips to
+		Disney World and loved visiting Mickey.</p>
+
+		<p>He was a great husband, father, and doggy dad and will be greatly missed.</p>
 		
 		<h6>Survived by</h6>
 		
-		<ul>
-			<li>Mother, Delores (Kelly) Keenan of Steubenville, OH</li>
-			<li>Wife, Judi (Andriano) Keenan</li>
-			<li>Daughter, Sarah Keenan</li>
-			<li>Brother, Robert Keenan and his wife Nancy Gallagher of Wintersville, OH</li>
-			<li>Sister-in-law, Diane Keenan of Columbus, OH</li>
-			<li>Sister-in-law, Alice Gotschall of Steubenville, OH</li>
-			<li>Sister-in-law, Jeanette Roberts of Stanton, KY</li>
-			<li>Brother-in-law, John (Stella) Andriano of Mingo Junction, OH</li>
-			<li>Nieces and Nephews</li>
+		<div class="row">
+			<div class="col-xs-6">
 				<ul>
-					<li>Christy Keenan of NH</li>
-					<li>Mike Keenan of TN</li>
-					<li>Particia Keenan of NY</li>
-					<li>Susie Lamatrice of MS</li>
-					<li>Michelle McDonald of VA</li>
-					<li>Sandy Gotschall Sagun of Mingo Junction, OH</li>
-					<li>Toni Marie Herschberger of TX</li>
-					<li>Steve Roberts of TX</li>
-					<li>Jennifer Andriano Barker of Mingo Junction, OH</li>
-					<li>John Andriano of Wintersville, OH</li>
-					<li>David Andriano of Wintersville, OH</li>
+					<li>Mother, Delores (Kelly) Keenan of Steubenville, OH</li>
+					<li>Wife, Judi (Andriano) Keenan</li>
+					<li>Daughter, Sarah Keenan</li>
+					<li>Brother, Robert Keenan and his wife Nancy Gallagher of Wintersville, OH</li>
+					<li>Sister-in-law, Diane Keenan of Columbus, OH</li>
+					<li>Sister-in-law, Alice Gotschall of Steubenville, OH</li>
+					<li>Sister-in-law, Jeanette Roberts of Stanton, KY</li>
+					<li>Brother-in-law, John (Stella) Andriano of Mingo Junction, OH</li>
+					<li>Nieces and Nephews</li>
+						<ul>
+							<li>Christy Keenan of NH</li>
+							<li>Mike Keenan of TN</li>
+							<li>Particia Keenan of NY</li>
+							<li>Susie Lamatrice of MS</li>
+							<li>Michelle McDonald of VA</li>
+							<li>Sandy Gotschall Sagun of Mingo Junction, OH</li>
+							<li>Toni Marie Herschberger of TX</li>
+							<li>Steve Roberts of TX</li>
+							<li>Jennifer Andriano Barker of Mingo Junction, OH</li>
+							<li>John Andriano of Wintersville, OH</li>
+							<li>David Andriano of Wintersville, OH</li>
+						</ul>
+					<li>Doggie Companions, Callie and Brandy Keenan</li>
 				</ul>
-		</ul>
-		
-		<h6>Preceeded in Death by</h6>
-		
-		<ul>
-			<li>Father, Robert J. Keenan</li>
-			<li>Brother, Michael Keenan</li>
-			<li>Father-in-law, John Andriano</li>
-			<li>Mother-in-law, Delores Andriano</li>
-			<li>Brother-in-law, Tony Andriano</li>
-			<li>Sister-in-law, Lindy Andriano</li>
-			<li>Brother-in-law, Gary Gotschall</li>
-			<li>Niece, Pamela Gotschall Shoemaker</li>
-		</ul>
-		
-		
+			</div>
+			<div class="col-xs-6">
+				<h6>Preceeded in Death by</h6>
+				
+				<ul>
+					<li>Father, Robert J. Keenan</li>
+					<li>Brother, Michael Keenan</li>
+					<li>Father-in-law, John Andriano</li>
+					<li>Mother-in-law, Delores Andriano</li>
+					<li>Brother-in-law, Tony Andriano</li>
+					<li>Sister-in-law, Lindy Andriano</li>
+					<li>Brother-in-law, Gary Gotschall</li>
+					<li>Niece, Pamela Gotschall Shoemaker</li>
+				</ul>
+			</div>
+		</div>
+
     </div>
-
-
-
-
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
